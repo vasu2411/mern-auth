@@ -1,0 +1,19 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.0",
+  "description": "Login/Auth app with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasu2411/mern-auth.git"
+  },
+  "author": "Vasu Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasu2411/mern-auth/issues"
+  },
+  "homepage": "https://github.com/vasu2411/mern-auth#readme"
+}
