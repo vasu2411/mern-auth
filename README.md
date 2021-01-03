@@ -8,6 +8,7 @@
 6. passport-jwt: A passport strategy for authenticating with a JSON web token
 7. jsonwebtoken: An implemetation of JSON web tokens
 8. passport: Authentication middleware for Node.js
+9. dotenv: To setup environment variables
 
 **Dev-Dependencies**
 
