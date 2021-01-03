@@ -4,6 +4,8 @@
   "description": "Login/Auth app with the MERN stack",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/vasu2411/mern-auth/issues"
   },
-  "homepage": "https://github.com/vasu2411/mern-auth#readme"
+  "homepage": "https://github.com/vasu2411/mern-auth#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.5.2"
+  }
 }
