@@ -1,13 +1,16 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const passport = require("passport");
+const dotenv = require("dotenv");
 
 const users = require("./routes/api/users");
+
+dotenv.config();
 
 const app = express();
 app.use(express.json()); //using in-built body-parser of express
 
-const db = require("./config/keys").mongoURI;
+const db = process.env.mongoURI;
 
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
