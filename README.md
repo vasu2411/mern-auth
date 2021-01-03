@@ -1,3 +1,9 @@
+**Steps to follow to run the project:**
+
+1. Clone the repo
+2. create .env file following .env.example file. Update the values
+3. run project: npm run start:local
+
 **Dependencies**
 
 1. express: To make the routing, request handling, and responding easier to write
